@@ -1,0 +1,119 @@
+  /*body {
+    background-image: url(/Modulos/ImagenesFondo/fondoBlancoFinal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#registro-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registro-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#registro-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#registro-form button.atras {
+    background-color: blue;
+}
+
+#registro-form ::placeholder
+{
+    text-align: center;
+    font-size: 15px;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f4f4f4;*/
+    background-image: url(/Modulos/ImagenesFondo/fondoBlancoFinal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#backButton {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Mover el botón Atrás hacia abajo */
+}
+#backButton:hover {
+    background-color: #0b7dda;
+}
+.message {
+    display: none;
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input::placeholder{
+    text-align: center;
+}

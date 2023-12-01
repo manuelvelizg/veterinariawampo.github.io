@@ -1,0 +1,189 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f4f4f4;*/
+    background-image: url(/Modulos/ImagenesFondo/fondoBlancoFinal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signup-link {
+    margin-top: 10px;
+    color: #555;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*placeholder usuario y contraseña*/
+
+.form-group input::placeholder {
+    text-align: center; /* Centra el marcador de posición */
+    color: #999; /* Color del marcador de posición */
+    opacity: 1; /* Ajusta la opacidad según sea necesario */
+    font-size: 15px;
+  }
+
+  /*Ventana de carga*/
+
+  /*body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }*/
+  
+  #loader-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: none;
+  }
+  
+  #loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.forgot-password-link {
+    margin-top: 10px;
+    color: #555;
+}
+
+.forgot-password-link a {
+    color: #ff6600; /* Puedes cambiar el color según tus preferencias */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password-link a:hover {
+    text-decoration: underline;
+}
+
+#loading-circle {
+    display: none;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px; /* La mitad del tamaño del círculo */
+    margin-left: -25px; /* La mitad del tamaño del círculo */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*#login-formulario {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+#login-formulario {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80vh; /* Altura máxima del formulario */
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si es necesario */
+}

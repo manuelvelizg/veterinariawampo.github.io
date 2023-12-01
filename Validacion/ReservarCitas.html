@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Wampo</title>
+    <link rel="stylesheet" href="EstiloReservarCitas.css">
+    <link rel="icon" href="/Modulos/Iconos/logoWampo.ico">
+</head>
+
+<body>
+    <form id="reservar-cita-form">
+   
+            <h2>Reservar Cita</h2>
+     
+       
+            <strong><label for="dni">DNI:</label></strong>
+            <input type="text" id="dni" name="dni" placeholder="Ingrese Dni" required>
+            <strong><label for="nombres">Nombres:</label></strong>
+            <input type="text" id="nombres" name="nombres" placeholder="Ingrese Nombres" required>
+            <strong><label for="apellidos">Apellidos:</label></strong>
+            
+            <input type="text" id="apellidos" name="apellidos" placeholder="Ingrese Apellidos" required>
+            <strong><label for="celular">Celular:</label></strong>
+            
+            <input type="tel" id="celular" name="celular" placeholder="Ingrese Celular" required>
+            <strong><label for="email">Email:</label></strong>
+            
+            <input type="email" id="email" name="email" placeholder="Ingrese Email" required>
+
+            <strong><label for="especialidad">Especialidad:</label></strong>
+            <select id="especialidad" name="especialidad" required>
+                <option value="" disabled selected>--Seleccione--</option>
+                <option value="vacunacion">Vacunación</option>
+                <option value="oftalmologia">Oftalmología</option>
+                <option value="dermatologia">Dermatología</option>
+            </select>
+       
+
+
+
+
+        <div class="boton-reservar">
+            <button type="submit">Reservar Cita</button>
+
+        </div>
+        <div class="boton-atras">
+            <a href="#"><button type="button">Atrás</button></a>
+        </div>
+
+    </form>
+</body>
+
+</html>
