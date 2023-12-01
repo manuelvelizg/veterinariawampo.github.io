@@ -7,7 +7,7 @@ class Database{
     private $charset;
 
     public function __construct(){
-        $this->host = 'localhost';
+        $this->host = '127.0.0.1';
         $this->db = 'bdveterinaria_wampo';
         $this->user = 'root';
         $this->password = '';
