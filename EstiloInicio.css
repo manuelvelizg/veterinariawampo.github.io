@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     /* Esto fija la imagen de fondo */
     /*background-color: rgb(8, 159, 121);*/
-    background-image: url(ImagenesFondo/fondoBlancoFinal.jpg);
+    background-image: url(fondoBlancoFinal.jpg);
     background-repeat: no-repeat;
 
 }
